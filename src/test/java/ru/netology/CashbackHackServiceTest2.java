@@ -1,12 +1,15 @@
 package ru.netology;
 
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import ru.netology.service.CashbackHackService;
 
 import static org.junit.Assert.assertEquals;
 
-public class CashbackHackServiceTest {
+
+public class CashbackHackServiceTest2 {
+
     @Test
     public void shouldReturn999If1() {
         CashbackHackService service = new CashbackHackService();
